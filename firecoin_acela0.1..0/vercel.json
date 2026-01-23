@@ -1,6 +1,0 @@
-{
-  "installCommand": "cd firecoin_acela0.1..0 && corepack enable && pnpm install",
-  "buildCommand": "cd firecoin_acela0.1..0 && pnpm build && rm -rf .vercel/output && mkdir -p .vercel/output/static && cp -r packages/web/dist/* .vercel/output/static/",
-  "outputDirectory": "firecoin_acela0.1..0/.vercel/output",
-  "framework": "vite"
-}
