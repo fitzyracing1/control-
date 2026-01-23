@@ -1,4 +1,9 @@
 {
-  "buildCommand": "pnpm install && pnpm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "pnpm install && pnpm vite build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_CONTRACT_ADDRESS": "@vite_contract_address",
+    "VITE_BASE_SEPOLIA_RPC_URL": "@vite_base_sepolia_rpc_url"
+  }
 }
